@@ -19,6 +19,16 @@ CREATE TABLE "Subcategory" (
      )
 );
 
+CREATE TABLE "Contacts" (
+    "contact_id" INT   NOT NULL,
+    "first_name" VARCHAR(20)   NOT NULL,
+    "Last_name" VARCHAR(20)   NOT NULL,
+    "email" VARCHAR(70)   NOT NULL,
+    CONSTRAINT "pk_Contacts" PRIMARY KEY (
+        "contact_id"
+     )
+);
+
 CREATE TABLE "Campaign" (
     "cf_id" INT   NOT NULL,
     "contact_id" INT   NOT NULL,
@@ -39,16 +49,6 @@ CREATE TABLE "Campaign" (
      )
 );
 
-CREATE TABLE "Contacts" (
-    "contact_id" INT   NOT NULL,
-    "first_name" VARCHAR(20)   NOT NULL,
-    "Last_name" VARCHAR(20)   NOT NULL,
-    "email" VARCHAR(70)   NOT NULL,
-    CONSTRAINT "pk_Contacts" PRIMARY KEY (
-        "contact_id"
-     )
-);
-
 ALTER TABLE "Campaign" ADD CONSTRAINT "fk_Campaign_contact_id" FOREIGN KEY("contact_id")
 REFERENCES "Contacts" ("contact_id");
 
@@ -63,6 +63,6 @@ SELECT * FROM "Category";
 
 SELECT * FROM "Subcategory";
 
-SELECT * FROM "Campaign";
-
 SELECT * FROM "Contacts";
+
+SELECT * FROM "Campaign";

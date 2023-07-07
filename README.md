@@ -8,7 +8,7 @@ The instructions for this mini project are divided into the following subsection
 - Create the Contacts DataFrame
 - Create the Crowdfunding Database
 
-## Create the Category and Subcategory DataFrames
+### Create the Category and Subcategory DataFrames
 1. Extract and transform the crowdfunding.xlsx Excel data to create a category DataFrame that has the following columns:
     - A "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories
     - A "category" column that contains only the category titles
@@ -21,7 +21,7 @@ The instructions for this mini project are divided into the following subsection
 
 4. Export the subcategory DataFrame as subcategory.csv and save it to your GitHub repository.
 
-## Create the Campaign DataFrame
+### Create the Campaign DataFrame
 1. Extract and transform the crowdfunding.xlsx Excel data to create a campaign DataFrame that has the following columns:
     - The "cf_id" column
     - The "contact_id" column
@@ -40,7 +40,7 @@ The instructions for this mini project are divided into the following subsection
 
 2. Export the campaign DataFrame as campaign.csv and save it to this GitHub repository.
 
-## Create the Contacts DataFrame
+### Create the Contacts DataFrame
 1. The creates DataFrame has the following columns:
     - The "contact_id" column
     - The "first_name" column
@@ -49,7 +49,7 @@ The instructions for this mini project are divided into the following subsection
 
 2. Export the contacts DataFrame as contacts.csv and save it to this Github repository
         
-## Create the Crowdfunding Database
+### Create the Crowdfunding Database
 1. The database schema labeled crowdfunding_db_schema.sql was created 
 
 2. A crowdfunding_db is created using the crowdfunding_db_schema.sql file 

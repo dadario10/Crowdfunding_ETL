@@ -61,13 +61,11 @@ The instructions for this mini project are divided into the following subsection
 5. The data from each table is displayed using a SELECT * statement
 
 ## Getting Started 
+ - This project used Jupyter Notebook and Visual Studio to run the Python code. It also used "https://app.quickdatabasediagrams.com/#/d/VCaXwp" and pgAdmin4 to create tbales and export/import data into the appropriate tables to obtain the required information
 
-
-
-
-and Resources
-We utilized and took advantage of the resources provided during class and office hours. Collaborating with other classmates aswell as eachother during th entirety of the assignment. The class activities 
-
-
-
-
+## Acknowledgements
+ - Jupyter Notebook
+ - Visual Stupdio
+ - pgAdmin4
+ - "https://app.quickdatabasediagrams.com/#/d/VCaXwp"
+ - with assistance from our Teaching Assistence, tutors, and fellow classmates
